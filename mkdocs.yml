@@ -20,7 +20,7 @@ repo_url: https://github.com/eduardoschulz/uni-resumos/
 plugins:
     - search
     - pdf-export
-    - math
+    - markdown-math
     - awesome-pages
     - git-authors
 
