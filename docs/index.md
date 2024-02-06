@@ -1,8 +1,13 @@
-# Welcome to MkDocs
+# Welcome to Uni Resumos
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+Sistemas Operacionais I [Sistemas Operacionais I](SistemasI).
+[Java](FundamentosProgramacao/java.md).
 ## Commands
+
+** Teste
+
+\sqrt[n]{1+x+x^2+x^3+\dots+x^n}
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
