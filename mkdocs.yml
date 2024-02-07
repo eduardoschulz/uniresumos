@@ -1,6 +1,9 @@
 site_name: Uni Resumos
 theme:
   name: material
+  features:
+    - navigation.path
+    - toc.follow
   palette:
 
     # Palette toggle for light mode
