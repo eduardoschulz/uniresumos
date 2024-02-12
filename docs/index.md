@@ -45,7 +45,7 @@ O site da wiki será atualizado em poucos minutos, para que todos os usuários p
 
 ## Links
 
-+ [Diciplinas](Diciplinas/index.md)
++ [Disciplinas](Disciplinas/index.md)
 + [Sugestões](https://github.com/eduardoschulz/uniresumos/discussions/categories/ideas)
 
 

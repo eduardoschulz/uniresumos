@@ -1,4 +1,4 @@
-# Diciplinas
+# Disciplinas
 
 + [Algoritmos e Programação: Fundamentos](Algoritmos e Programação I)
 + [Redes I](Redes I)
