@@ -43,6 +43,7 @@ Para que um dispositivo possua suporte para o TCP ele precisara de uma entidade 
 ...
 
 ---
-## Fontes
-+ Tanenbaum, A. S. & Wetherall, D. (2011), Computer Networks , Prentice Hall , Boston.
-+ IETF, 2022. RFC 9293 detalhada. Disponível em <https://datatracker.ietf.org/doc/html/rfc793.> Acesso em: 09, Março de 2024.
+## Referências
+* Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
+* IETF, 2022. RFC 9293 detalhada. Disponível em <https://datatracker.ietf.org/doc/html/rfc793.> Acesso em: 09, Março de 2024.
+
