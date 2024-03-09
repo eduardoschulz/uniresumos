@@ -1,5 +1,5 @@
 # TCP - Transmission Control Protocol
-## 1. Resumo
+## 0. Resumo
 
 TCP - Transmission Control Protocol, ou Protocolo de Controle de Transmissão é um dos protocolos mais conhecidos da camada de transporte. Tem como objetivo manter aconfiabilidade dos dados durante a transmissão na rede. Seu dever é verificar a integridade no recebimento dos segmentos, ordenar a seguencia correta, praticar a retransmissão e outras funções.
 
@@ -15,7 +15,7 @@ Adicionar artigo sobre UDP.
 + Ordem de Entrega - O protocolo estabelece uma ordem de entrega para que segmentos mais novos não cheguem antes de segmentos mais antigos que falharam na transmissão. 
 + *Syn* e *ACK*
 
-### 1.1 Cabeçalho
+### 0.1 Cabeçalho
 <!---
 Adicionar gráfico com Cabeçalho do segmento.
 --->
@@ -28,9 +28,21 @@ Adicionar gráfico com Cabeçalho do segmento.
 finalizar cabeçalho
 --->
 
-## 2. Desenvolvimento
-### 2.1 Cabeçalho
+## 1. Introdução
+
+TCP foi projetado para garantir a transferência de uma _stream_ de _bytes_ de forma confiável através de uma rede.  Seu projeto prevê adaptações do protocolo para seguir propriedades da rede local, e garatir a confiabilidade.
+
+TCP foi definido pela RFC 793 em Setembro de 1981 porém, desde então o protocolo sofreu diversas atualizações. Até o momento(Março de 2024) a última modificação no protocolo ocorreu em Agosto de 2022 pela RFC 9293.
+
+Para que um dispositivo possua suporte para o TCP ele precisara de uma entidade de transporte, isso pode ser uma biblioteca ou um suporte direto provido pelo kernel. Essa entidade será responsável por todas as conexões e pelas interfaces na camada de rede. <!--- Reescrever ultima frase --->
+
+### 1.1 Cabeçalho
 
 + Source Port
 + Destination Port
 ...
+
+---
+## Fontes
++ Tanenbaum, A. S. & Wetherall, D. (2011), Computer Networks , Prentice Hall , Boston.
++ IETF, 2022. RFC 9293 detalhada. Disponível em <https://datatracker.ietf.org/doc/html/rfc793.> Acesso em: 09, Março de 2024.
