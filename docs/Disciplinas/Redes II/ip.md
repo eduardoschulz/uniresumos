@@ -11,7 +11,7 @@ O IP não é confiável e segue o modelo _best effort_ onde:
     + podem nem chegar
 
 ### Funcionamento Resumido:
- ![ip](docs/Disciplinas/Redes II/func-ip.png)
+ ![datagrama funcionamento](imgs/func-ip.png)
 
 --- 
 ## 1. Introdução
