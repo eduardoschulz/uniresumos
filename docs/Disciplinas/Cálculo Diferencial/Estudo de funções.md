@@ -65,7 +65,6 @@ Essas funções seguem as regras básicas de formulações de Domínio e Imagem 
 ### Valor numérico de função 
 - valor de y quando x e alguém
 
-DATA:04/MAR/24
 ## Gráfico de uma função
 Qualquer função na matemática terá um gráfico para lhe representar. Todavia, tenha em mente que nem todo gráfico tem uma função.
 Gráficos não precisam necessariamente ter uma escala correta, apenas precisam estar coerentes escritos dentro do plano cartesiano.
@@ -82,7 +81,7 @@ Gráficos não precisam necessariamente ter uma escala correta, apenas precisam 
     - função afim
 - pra todos esses o gráfico é uma reta sempre
 - tirando a constante, tds as retas tem algum grau de inclinação
-    - [imagem de retas com inclinação]
+    - <img src = "imgs/Retas.png>
     - quem define a inclunação da reta é o a (taxa de variação)
         - 'a' é uma constante assim como 'b'
         - coeficiente angular
@@ -95,9 +94,15 @@ Gráficos não precisam necessariamente ter uma escala correta, apenas precisam 
     - sem numeração é genérico
     - pra chegar no a faz:
         a=(x2-x1)/(y2-y1)
-- [colocar o trecho 1 como img aqui]
 - Com dois pontos sempre vai dar pra traçar a reta
 - sempre dá o double check pra ver se a variação faz sentido com o gráfico
+- Identificação da função sempre pode se dar pela definição de dois pontos. Veja, existem unfinitas retas dentro do plano, mas apenas uma com os dois pontos juntos.
+Exercícios:
+<img src = "imgs/Aula_2_Funcao_grau_1_exerc_1">
+<img src = "imgs/Aula_2_Funcao_grau_1_exerc_1_b">
+<img src = "imgs/Aula_2_Funcao_grau_1_exerc_2">
+<img src = "imgs/Aula_2_Funcao_grau_1_exerc_3">
+
 ## Funções polinomiais no 2° grau
 - f(x) = ax² + bx + c com a != 0
 - gráfico parabólico
@@ -119,3 +124,18 @@ Gráficos não precisam necessariamente ter uma escala correta, apenas precisam 
 - [colocar imagem de referência 3]
 - a é sempre coeficiente de x²
 - raízes não reais indicam q a parábola n bate no x
+### Vértice
+Ponto mais baixo ou o mais alto de uma parábola, à depender de sua formação.
+É possível encontrar as coordenadas (X, Y) através das fórmulas:
+- Xv = (-b)/(2a)
+- Yv = -(b² - 4ac)/4a
+
+#### Exemplos
+<img src = "imgs/Aula_2_Funcao_grau_2_exerc_1">
+<img src = "imgs/Aula_2_Funcao_grau_2_exerc_2">
+<img src = "imgs/Aula_2_Funcao_grau_2_exerc_3">
+
+## Referências
+* ANTON, Howard; BIVENS, Irl; DAVIS, Stephen. Cálculo. 10. ed. Porto Alegre: Bookman, 2014. v. 1.
+* STEWART, James. Cálculo. 4. ed. São Paulo: Cengage Learning, 2017. v. 1.
+* WEIR, Maurice D.; HASS, Joel; THOMAS, George Brinton. Cálculo. 12. ed. São Paulo: Pearson, 2013. v. 1.
