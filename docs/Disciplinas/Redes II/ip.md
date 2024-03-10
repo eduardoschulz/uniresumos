@@ -10,14 +10,19 @@ O IP não é confiável e segue o modelo _best effort_ onde:
     + podem chegar corrompidos 
     + podem nem chegar
 
+### Funcionamento Resumido:
+ ![ip](docs/Disciplinas/Redes II/func-ip.png)
 
+--- 
 ## 1. Introdução
-Podemos dizer que o protocolo IP é quem carrega uma grande parte dos protocolos do modelo TCP/IP. Diversos protocolos como o [TCP](Camada%20de%20Transporte/tcp.md), UDP e ICMP dependem de datagramas IPs para serem transmitidos. O protocolo, por padrão, é não confiável e entre datagramas de sem conexão.
+Podemos dizer que o protocolo IP é a cola que segura a Internet e que carrega uma grande parte dos protocolos do modelo TCP/IP. Diversos protocolos como o [TCP](Camada%20de%20Transporte/tcp.md), UDP e ICMP dependem de datagramas IPs para serem transmitidos. O protocolo, por padrão, é não confiável e entre datagramas de sem conexão.
 
 Não confiável significa que não há garantia para que o datagrama chegue ao seu destino e que ele chegue na ordem correta. O protocolo IP  é baseado no best effort, onde os datagramas podem ser perdidos, podem chegar fora de ordem, podem chegar corrompidos ou até mesmo nem chegarem. Por padrão, o protocolo pode descartar datagramas e mandar mensagens ICMP para a origem avisando do erro, porém, para confiabilidade é necessário usar de protocolos nas camadas acima como o [TCP](Camada%20de%20Transporte/tcp.md).
 
 Ele é _connectionless_, isso é, o IP não tem informações sobre séries de datagramas. Cada datagrama é independente, podendo ou não ser roteado por diferentes rotas.
 
+### Como funciona: 
+A camada de transporte pega uma _stream_ de dados e empacota em datagramas que podem chegar até 64 Kilobytes, porém, normalmente não ultrapassam 1500 bytes. Cada datagrama é transmitido pela internet e pode ou não ser fragmentado no caminho. Quando chega no host é remontado pela camada de rede no datagrama original e é enviado para camada de transporte.
 
 ## Referências
 * Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
