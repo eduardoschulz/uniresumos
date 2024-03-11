@@ -1,6 +1,8 @@
-DATA: (26/Fev/24)
 # Estudo de Funções
-## Conjuntos
+## 0. Resumos
+
+# 1. Introdução
+# 1.1 Conjuntos
 - Eixo em flecha (não os vetores) é pra dar direção e sentido (igual um vetor)
 ### Pequena lista dos conjuntos básicos de números para consulta:
 - Naturais (IN)
@@ -17,7 +19,7 @@ Inclui os números não periódicos. Pi, Euler, algumas raízes, etc
 - Reais (IR)
 Inclui todos os conjuntos anteriores
 
-## Intervalos
+## 1.2 Intervalos
 - conjunto de reais com deseigualdade
 - [intervalo de referência de img 1]
 - intervalo é sempre crescente
@@ -38,7 +40,7 @@ só esquerda aberta
 - bordas infinitas
 em alguns casos dá pra ir até o infinito
 
-## Funções propriamente ditas
+## 1.3 Funções propriamente ditas
 - funções trabalham com imagens e domínios
 Essas funções seguem as regras básicas de formulações de Domínio e Imagem vistas no Ensino Médio
 - normalmente o eixo y é a imagem
@@ -62,19 +64,19 @@ Essas funções seguem as regras básicas de formulações de Domínio e Imagem 
     - logaritmos naturais
         - logaritimando precisa ser positivo pra ser real (IR)
         - y = ln(x+8) -> x+8 > 0 -> x > 0
-### Valor numérico de função 
+### 1.3.1 Valor numérico de função 
 - valor de y quando x e alguém
 
-## Gráfico de uma função
+## 1.4 Gráfico de uma função
 Qualquer função na matemática terá um gráfico para lhe representar. Todavia, tenha em mente que nem todo gráfico tem uma função.
 Gráficos não precisam necessariamente ter uma escala correta, apenas precisam estar coerentes escritos dentro do plano cartesiano.
-### função polinomial do 1° grau
+
+### 1.4.1 função polinomial do 1° grau
 - f(x) = ax + b
 - a e b são IR
 - se a=0
     - f(x) = 3 -> ainda é uma função (consatante)
     - valor de x é qql coisa
-    - <img src = "imgs/Funcao_afim.png">
 - a!=0 e b=0
     - linear
 - a!=0 e b!=0
@@ -98,12 +100,8 @@ Gráficos não precisam necessariamente ter uma escala correta, apenas precisam 
 - sempre dá o double check pra ver se a variação faz sentido com o gráfico
 - Identificação da função sempre pode se dar pela definição de dois pontos. Veja, existem unfinitas retas dentro do plano, mas apenas uma com os dois pontos juntos.
 Exercícios:
-<img src = "imgs/Aula_2_Funcao_grau_1_exerc_1">
-<img src = "imgs/Aula_2_Funcao_grau_1_exerc_1_b">
-<img src = "imgs/Aula_2_Funcao_grau_1_exerc_2">
-<img src = "imgs/Aula_2_Funcao_grau_1_exerc_3">
-
-## Funções polinomiais no 2° grau
+<!--- Adicionar os Exerc em Latex--->
+## 1.5 Funções polinomiais no 2° grau
 - f(x) = ax² + bx + c com a != 0
 - gráfico parabólico
 - n adianta ficar fzr tabela de pontos pra lidar com parábolas
@@ -124,18 +122,16 @@ Exercícios:
 - [colocar imagem de referência 3]
 - a é sempre coeficiente de x²
 - raízes não reais indicam q a parábola n bate no x
-### Vértice
+### 1.5.1 Vértice
 Ponto mais baixo ou o mais alto de uma parábola, à depender de sua formação.
 É possível encontrar as coordenadas (X, Y) através das fórmulas:
 - Xv = (-b)/(2a)
 - Yv = -(b² - 4ac)/4a
 
-#### Exemplos
-<img src = "imgs/Aula_2_Funcao_grau_2_exerc_1">
-<img src = "imgs/Aula_2_Funcao_grau_2_exerc_2">
-<img src = "imgs/Aula_2_Funcao_grau_2_exerc_3">
+#### 1.5.1.1 Exemplos
+<!--- Adicionar os Exemplos em Latex--->
 
-## Referências
+# 2. Referências
 * ANTON, Howard; BIVENS, Irl; DAVIS, Stephen. Cálculo. 10. ed. Porto Alegre: Bookman, 2014. v. 1.
 * STEWART, James. Cálculo. 4. ed. São Paulo: Cengage Learning, 2017. v. 1.
 * WEIR, Maurice D.; HASS, Joel; THOMAS, George Brinton. Cálculo. 12. ed. São Paulo: Pearson, 2013. v. 1.

@@ -107,7 +107,7 @@ Máquinas de estado finitos normalmente são ou de Mealy ou de Moore. Normalment
     - trocou o estado a saída modifica
 - máquinas de estado só os principais componentes dentro de um bloco de controle
 - máquinas de estado normalmente levam pra algum lugar
-- <img src = "imgs/Representacao_de_uma_maquina_de_estados_meanly.png">
+
 ### Flip-flop JK
 - clock na subida
 - guarda info
