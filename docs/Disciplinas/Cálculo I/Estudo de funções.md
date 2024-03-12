@@ -83,7 +83,6 @@ Gráficos não precisam necessariamente ter uma escala correta, apenas precisam 
     - função afim
 - pra todos esses o gráfico é uma reta sempre
 - tirando a constante, tds as retas tem algum grau de inclinação
-    - <img src = "imgs/Retas.png>
     - quem define a inclunação da reta é o a (taxa de variação)
         - 'a' é uma constante assim como 'b'
         - coeficiente angular
