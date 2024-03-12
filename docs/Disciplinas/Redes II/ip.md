@@ -24,7 +24,7 @@ Ele é _connectionless_, isso é, o IP não tem informações sobre séries de d
 ### Como funciona: 
 A camada de transporte pega uma _stream_ de dados e empacota em datagramas que podem chegar até 64 Kilobytes, porém, normalmente não ultrapassam 1500 bytes. Cada datagrama é transmitido pela internet e pode ou não ser fragmentado no caminho. Quando chega no host é remontado pela camada de rede no datagrama original e é enviado para camada de transporte.
 
-$`\sqrt{3x-1}+(1+x)^2`$
+$$ \sqrt{3x-1}+(1+x)^2 $$
 
 ## Referências
 * Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
