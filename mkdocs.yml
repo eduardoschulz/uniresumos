@@ -24,5 +24,5 @@ plugins:
     - search
     - pdf-export
     - awesome-pages
-    - git-authors
+    # git-authors
 

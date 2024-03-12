@@ -9,7 +9,8 @@
 - dois pontos são necessarios (2 variáveis) pq passam infinitas retas por um ponto só
     - só uma reta com aquela direçao passa por esses dois pontos
 - Um software fácil de mexer é: https://www.geogebra.org/classic?lang=en
+
+<br>
 <span class='git-page-authors'>
 <a href='https://github.com/GalegoSonolento'>Henrique Haag</a>
-<br>
 </span>
