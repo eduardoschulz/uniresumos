@@ -135,3 +135,8 @@ Ponto mais baixo ou o mais alto de uma parábola, à depender de sua formação.
 * ANTON, Howard; BIVENS, Irl; DAVIS, Stephen. Cálculo. 10. ed. Porto Alegre: Bookman, 2014. v. 1.
 * STEWART, James. Cálculo. 4. ed. São Paulo: Cengage Learning, 2017. v. 1.
 * WEIR, Maurice D.; HASS, Joel; THOMAS, George Brinton. Cálculo. 12. ed. São Paulo: Pearson, 2013. v. 1.
+
+<span class='git-page-authors'>
+<a href='https://github.com/GalegoSonolento'>Henrique Haag</a>
+<br>
+</span>
