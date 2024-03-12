@@ -1,0 +1,25 @@
+# Obersvações pertinentes
+ - Não existe Software sem bug
+    - em algum lugar eles estão
+- Software Craftmanship - artesanato de software?
+    - https://manifesto.softwarecraftsmanship.org/
+- Chaos report
+    - https://www.infoq.com/articles/standish-chaos-2015
+    - quantidade de caus instaurado dentro de projetos de software
+    - a grande maioria é meio quebrado e é implantado com algumas coisas tortas
+    - obviamente conforme aumenta o pojeto a taxa de sucesso diminui bastante
+    - más escolhas de projeto, ainda no início, são os principais geradores de problemas
+- sempre pregunte a necessidade/motivo dos pedidos de um customer
+- https://developerslife.tech/pt/
+- SOLID
+    - princípios e boas práticas
+    - aberto à altera~ções e fechado a modificações
+    - dá pra fzr implementações sem alterar o código inteiro
+    - o sistema precisa ser expansível
+- Design Patterns
+    - facilite o trabalho do suporte e dos implementadores
+- a engenharia de requisitos nunca termina de vdd
+- existe um cargo dentro de empresas (TEM  Q TER)
+    - DPO - é o mano q cuida dos contatos de customers dentro da empresa
+    - o customer pode chegar na empresa e pedir pra excluir tds os dados dele dos sistemas
+    - é uma lei, n necessariamente seguida
