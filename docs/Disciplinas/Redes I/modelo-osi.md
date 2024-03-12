@@ -41,3 +41,8 @@ V. O número de camadas deve ser grande o suficiente para que funções distinta
 * Tanenbaum, A. Computer Networks. 3rd ed. Upper Saddle River, New Jersey, EUA:Prentice Hall PTR, 1996. [1]
 * Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
 * Filippeti, M. A. CCNA 4.1: Guia Completo de Estudo. Florianópolis, Santa Catarina, Brasil: Visual Books, 2008.
+
+<br>
+<span class='git-page-authors'>
+<a href='https://github.com/eduardoschulz'>Eduardo Schulz</a>
+</span>

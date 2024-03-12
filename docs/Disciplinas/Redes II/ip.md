@@ -31,3 +31,7 @@ A camada de transporte pega uma _stream_ de dados e empacota em datagramas que p
 * Tanenbaum, A. Computer Networks. 3rd ed. Upper Saddle River, New Jersey, EUA:Prentice Hall PTR, 1996.
 * Stevens, W. Richard. TCP/IP Illustrated: the Protocols, vol 1. 1st ed. Reading, MA, EU: Addison-Wesley Publishing Company, 1994.
 
+<br>
+<span class='git-page-authors'>
+<a href='https://github.com/eduardoschulz'>Eduardo Schulz</a>
+</span>

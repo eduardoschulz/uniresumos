@@ -32,3 +32,8 @@ public class Cachorro extends Animal {
   }
 }
 ```
+
+<br>
+<span class='git-page-authors'>
+<a href='https://github.com/eduardoschulz'>Eduardo Schulz</a>
+</span>
