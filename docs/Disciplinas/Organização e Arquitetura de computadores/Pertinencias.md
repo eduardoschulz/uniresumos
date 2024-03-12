@@ -1,0 +1,11 @@
+# Pertinências
+- processadores ainda n conseguem manipular sinal analógico
+- um overflow é uma operação com resultado maior do que os bits suportados
+- LSB - bit menos significativo
+- MSB - bit mais signigicativo
+- ULA é o principal componente de um bloco de dados 
+- [img do 1° slide com o ciclo de dados]
+    - o processador é montado pela ula e o controle
+    - quem calcula mesmo é a ULA
+- considções de reset são representadas com setas nas máquinas de estado 
+    - normalmente n são representados nas tabelas, mas variam à vontade, é só configurar direito
