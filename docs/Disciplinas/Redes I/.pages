@@ -1,4 +1,3 @@
 nav:
-    - First page: index.md
+    - index.md
     - modelo-osi.md
-    - Camada\ de\ Rede
