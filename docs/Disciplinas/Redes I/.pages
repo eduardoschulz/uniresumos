@@ -1,5 +1,4 @@
 nav:
     - First page: index.md
-    - modelo.osi
-    - Camada\ de\ Transporte
-    
+    - modelo-osi.md
+    - Camada\ de\ Rede
