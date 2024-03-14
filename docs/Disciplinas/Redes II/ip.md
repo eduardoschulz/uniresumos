@@ -1,4 +1,4 @@
-# IP - Internet Protocol
+# IP - Internet Protocol 
 ## 0. Resumo
 Protocolo IP é o protocolo da camada de rede, sendo responsável por "carregar" todos os segmentos da camada de transporte. Exemplos são [TCP](/docs/Disciplinas/Redes%20I/Camada%20de%20Transporte/tcp.md), UDP e ICMP.
 
@@ -11,7 +11,11 @@ O IP não é confiável e segue o modelo _best effort_ onde:
     + podem nem chegar
 
 ### Funcionamento Resumido:
- ![datagrama funcionamento](imgs/func-ip.png)
+<figure markdown="span">
+ ![datagrama funcionamento](imgs/func-ip.png){ width = "300"}
+   <figcaption>Funcionamento do Protocolo IP</figcaption>
+</figure>
+
 
 --- 
 ## 1. Introdução
@@ -23,6 +27,14 @@ Ele é _connectionless_, isso é, o IP não tem informações sobre séries de d
 
 ### Como funciona: 
 A camada de transporte pega uma _stream_ de dados e empacota em datagramas que podem chegar até 64 Kilobytes, porém, normalmente não ultrapassam 1500 bytes. Cada datagrama é transmitido pela internet e pode ou não ser fragmentado no caminho. Quando chega no host é remontado pela camada de rede no datagrama original e é enviado para camada de transporte.
+
+### Cabeçalho do IPv4:
+
+* Versão: Responsável por determinar o versão usada no datagrama, IPv4 ou IPv6.
+
+* IHL ou _Internet Header Length: É o campo que mostra o tamanho do cabeçalho, isso se da pois o cabeçalho não tem tamanho estático. Valores variam de 5, onde não há **opções** no cabeçalho, e 15 sendo o maior (IHL tem um tamanho de 4 bits) o que limita o cabeçalho a 60 bytes e o campo de opção à 40 bytes.
+
+* ToS ou _Type of Service_: Permite o host pedir o tipo de serviço solicitado a subnet, exemplos são: _low delay_, _throughput_, _reliability_ e _lowcost(RFC 1349)_. 
 
 
 

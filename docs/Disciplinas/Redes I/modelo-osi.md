@@ -2,7 +2,7 @@
 ## 0. Resumo
 O Modelo OSI é um modelo de rede de *referência* onde as funções da rede são divididas por 7 camadas.  Desenvolvido com o intuito de criar uma forma de ajudar sistemas de computadores desiguais a comunicarem entre si. Foi inicialmente criado para ser o padrão porém atualmente é apenas usado no meio acadêmico para representar redes, sendo superado pelo modelo TCP/IP para aplicações no mundo real. 
 
-### 0.1 Princípios do Modelo OSI [1]:
+### 0.1 Princípios do Modelo OSI [^1]:
 
 I. Uma camada deve ser criada onde um nível de abstração diferente é preciso.
 
@@ -38,9 +38,9 @@ V. O número de camadas deve ser grande o suficiente para que funções distinta
     * Responsável pela movimentação dos _bits_ entre diferentes _hosts_ através das interfaces, sejam elas elétricas ou por fibra óptica.
 
 ## Referências
-* Tanenbaum, A. Computer Networks. 3rd ed. Upper Saddle River, New Jersey, EUA:Prentice Hall PTR, 1996. [1]
-* Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
-* Filippeti, M. A. CCNA 4.1: Guia Completo de Estudo. Florianópolis, Santa Catarina, Brasil: Visual Books, 2008.
+[^1]: Tanenbaum, A. Computer Networks. 3rd ed. Upper Saddle River, New Jersey, EUA:Prentice Hall PTR, 1996.
+[^2]: Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
+[^3]: Filippeti, M. A. CCNA 4.1: Guia Completo de Estudo. Florianópolis, Santa Catarina, Brasil: Visual Books, 2008.
 
 <br>
 <span class='git-page-authors'>
