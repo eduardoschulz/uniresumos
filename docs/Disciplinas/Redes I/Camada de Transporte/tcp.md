@@ -1,4 +1,8 @@
 # TCP - Transmission Control Protocol
+
+??? warning "Aviso"
+Está página está inacabada e seus conteúdos não foram verificados
+
 ## 0. Resumo
 
 TCP - Transmission Control Protocol, ou Protocolo de Controle de Transmissão é um dos protocolos mais conhecidos da camada de transporte. Tem como objetivo manter aconfiabilidade dos dados durante a transmissão na rede. Seu dever é verificar a integridade no recebimento dos segmentos, ordenar a seguencia correta, praticar a retransmissão e outras funções.
