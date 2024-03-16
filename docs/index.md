@@ -27,7 +27,7 @@ Contribuir para a wiki é muito simples e acessível a todos os estudantes! Bast
 
 3. Faça suas modificações:
     + Abra o arquivo markdown (.md) no seu editor de texto preferido.
-    + Faça as alterações e adições desejadas no conteúdo, seguindo as diretrizes de estilo da wiki. Para mais informações siga [Template](Disciplinas/Redes\ I/Camada\ de \Rede/tcp.md).
+    + Faça as alterações e adições desejadas no conteúdo, seguindo as diretrizes de estilo da wiki. Para mais informações siga [Template](/docs/Disciplinas/Redes%20I/Camada%20de%20Transporte/tcp.md).
     + Seja claro, conciso e utilize linguagem acessível para facilitar a leitura e o aprendizado.
 
 4. Envie sua pull request:

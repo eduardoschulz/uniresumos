@@ -22,24 +22,16 @@ theme:
 repo_url: https://github.com/eduardoschulz/uni-resumos/
 plugins:
     - search
-    - pdf-export
     - awesome-pages
-
-#    - git-committers:
-#  repository: eduardoschulz/uniresumos
-#  token: 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
-#  branch: master
-#https://github.com/ojacques/mkdocs-git-committers-plugin-2
-#    - git-authors
+    - pdf-export
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
   - mdx_math
+  - footnotes
   - attr_list
   - md_in_html
   - pymdownx.superfences
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-
 
