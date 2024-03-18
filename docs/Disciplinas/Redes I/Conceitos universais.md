@@ -1,0 +1,41 @@
+# Conceitos universais
+- rede n funcional n é mais uma rede
+- internet - núcleo de liga~çao de borda - rede q liga redes
+- usar como infraestrutura n é trabalhar com ela
+- cabo de par trançado n pd ter mais de 100 metros
+    - ou dobrar > 45°
+- sinal 5G é fraco, corpo humano barra
+    - dentro dela n dá pra ver a 2,5G
+    - são duas redes diferentes dentro do transmissor
+- servidor em rede é um prestador de serviço
+    - um celular mandando uma msg é um servidor tbm
+- onda de rádio é um meio físico
+    - preciso de controle do meio físico pra transmissão
+- transmissões
+    - simplex
+        - só um lado faz a transmissão
+    - half-duplex
+        - só um pode falar por vez
+        - walkie-talkie
+            - controle de meio
+    - duplex
+        - coms duplas
+        - telefone
+- maioria dos pacotes n criptografam
+- dois sinais na mesma rede é a física básica de ondas
+    - se amplificar pode queimar alguma coisa
+- o roteador de casa é um roteador de borda, mas essecialmente ele é só um switch
+    - primeiro roteador, na borda da Net
+    - trabalha como switch na camada de enlace
+    - o roteamento é só com outro roteador
+- enlace é uma ligação física entre as máquinas
+- rede cabeada e wi-fi são diferentes (n tem rota)
+    - alguns fazem um bridge entre as duas redes
+    - com bridge vai ser sempre a 5G por ser mais rápida e n derrubar a latência do resto da rede
+        - velocidade baseada no mais lento
+- preocupação atual de rede é streaming 
+- Aplicação de internet é uma aplicação distribuída
+- tempo de carregamento online é troca de server
+- normalmente velocidade é o parametro de desempate
+    - ás vezes precisa de aplicação com mais espaço
+- não dá pra transmitir dois sinai na mesma frequências no mesmo canal
