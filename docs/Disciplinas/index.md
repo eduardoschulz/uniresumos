@@ -74,11 +74,13 @@
 1. [Fundamentos de Sistemas Operacionais]()
 2. [Análise e Projeto de Algoritmos]()
 2. [Algoritmos e Programação: Árvores e Ordenação]()
+> **_OBS:_**  Oferecidade como Estruturas de Dados Avançadas I.
 8. [Engenharia de Software: Requisitos]()
 2. [Cálculo Diferencial]()
 
 ### 4º Semestre
 1. [Algoritmos e Programação: Grafos, Hashing e Heaps]()
+> **_OBS:_**  Oferecidade como Estruturas de Dados Avançadas II.
 2. [Redes de Computadores: Aplicação e Transporte]()
 3. [Fudamentos de Banco de Dados]()
 4. [Engenharia de Software: Análise]()
