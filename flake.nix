@@ -2,7 +2,7 @@
   description = "mkdocs dev environment";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
   };
 
   outputs = { self , nixpkgs ,... }: let
@@ -17,7 +17,10 @@
     in pkgs.mkShell {
 			#installing tools and libs
       packages = with pkgs; [
-				mkdocs
+				python312Packages.mkdocs-material
+				python312Packages.mkdocs
+				python312Packages.python-markdown-math
+				python312Packages.pip
       ];
 
       shellHook = ''

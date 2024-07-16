@@ -1,14 +1,15 @@
 # TCP - Transmission Control Protocol
 
+
 ???+ warning "Aviso"
 
- Está página está inacabada e seus conteúdos não foram verificados
+    Esta página está inacabada e seus conteúdos não foram verificados. 
 
 ## 0. Resumo
 
 TCP - Transmission Control Protocol, ou Protocolo de Controle de Transmissão é um dos protocolos mais conhecidos da camada de transporte. Tem como objetivo manter aconfiabilidade dos dados durante a transmissão na rede. Seu dever é verificar a integridade no recebimento dos segmentos, ordenar a seguencia correta, praticar a retransmissão e outras funções.
 
-Vários protocolos da camada de aplicação dependem do *TCP* como o: SSH, FTP e HTTP. Aplicações que não precisam de confiabilidade e necessitam melhor performance podem utilizar o protocolo da camada de transporte *UDP*. 
+Vários protocolos da camada de aplicação dependem do *TCP* como o: SSH, FTP e HTTP. Aplicações que não precisam de confiabilidade e necessitam melhor performance podem utilizar o protocolo da camada de transporte [UDP](udp.md). 
 <!---
 Adicionar artigo sobre UDP.
 --->
@@ -43,21 +44,10 @@ Para que um dispositivo possua suporte para o TCP ele precisara de uma entidade 
 
 ### 1.1 Cabeçalho
 
- 0                   1                   2                   3  
- 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|          Source Port          |        Destination Port       |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                        Sequence Number                        |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                     Acknowledgment Number                     |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-| Offset|  Res. |     Flags     |             Window            |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|            Checksum           |         Urgent Pointer        |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                    Options                    |    Padding    |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+<figure markdown="span">
+ ![datagrama funcionamento](../../imgs/head-tcp.svg){ width = "300"}
+   <figcaption>Cabeçalho do TCP</figcaption>
+</figure>
 
 ## Referências
 * Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6th ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.

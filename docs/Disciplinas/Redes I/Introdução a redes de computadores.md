@@ -1,39 +1,34 @@
-# Introdução a redes de computadores
-- ideia básica de redes surgiu por causa dos mainframes
-    - um mainframe gigante e vários terminais burro
-    - isso e uma arquitetura pai de redes
-    - esse troço ficou mto lerdo e resolveram quebrar o processamento
-- necessidade de rede era pra compartilhar recurso
-- comuniação de rede é toda por pulso de luz
-    - a voltagem tem espaços de volts pra análise
-Redes hoje em dia não necessariamente são compostas apenas por computadores. Ficou bastante comum o uso de microcontroladores e outras peças de hardware que não são exatamente computadores. Vide os sensores coectados na rede.
-Já meio batido mas para deixar claro, as redes funcionam com trocas de bits entre os computadores e a rede. Precisa-se converter o sinal na entrada e na saída.
-## Evolução de rede
-- depois de montagem de rede ela teve uma fase alta e continuou desenvolvendo
-- trocar info cada vez mais rápido - menor custo facilita
-- internet era uma segunda linha de coms pra manter os EUA em pé em caso de invasão de quebra das comunicações telefônicas
-    - caminhão de dinheiro federal pra montagem da arpanet
-A necessidade de uma rede alternativa à telefônica era por motivos bélicos, mas se tornou uma ferramenta indispensável na mão dos civis. 
-A troca de informações barata e rápida com compartilhamento de informação e recurosos supera bastante a da rede telefônica.
-### preocupações de rede
-- transmissão precisa ser com luz, piscando, e o receptor precisa ser bom o suficiente pra pegar e o envio precisa ser sinconizado o suficiente pra n atrasar
-- inicialmente todas as redes eram corporativas
-    - transmissão de pulso era em cima de rede telefônica
-    - já existiam alguns tipos de rede pessoal
+# Introdução a Redes de Computadores
+
+Entendemos uma rede como um conjunto de computadores autonomos conectados que compartilham recursos. Essa conexão pode ser dada de diversas formas sendo ela por diversos meios físicos assim como diversas tecnologias e protocolos. Porém, algo que precisa ficar claro é que esses nós na rede precisam ser idependentes, comunicações entre _master_ e _slave_ não são considerados partes de uma rede[^1].
+
+## História: 
+
+O início das redes de computadores se dá no final dos anos 60 com o desenvolvimento e pesquisa da ARPANET. Anteriormente o mais próximo ao uma rede que se tinha eram as conexões entre os terminais e o _mainframe_. Mas como dito anteriormente, uma conexão entre um nó simples um nó principal não deve ser considerado uma rede. A grande evolução da ARPANET foi seu _design_ que tem em mente nós "iguais" ao contrário do arquitetura anterior. _Packet Switching_ também foi uma grande evolução comparado ao método mais tradicional de _Circuit switching_[^2]. Mais detalhes sobre _packet switching vs. circuit switching_ estão na diciplina de [Redes II/Camada de Rede]("").
+
+
+<!---Redes hoje em dia não necessariamente são compostas apenas por computadores. Ficou bastante comum o uso de microcontroladores e outras peças de hardware que não são exatamente computadores. Vide os sensores coectados na rede.
+Já meio batido mas para deixar claro, as redes funcionam com trocas de bits entre os computadores e a rede. Precisa-se converter o sinal na entrada e na saída.  --> 
+
+
+
+
 ## Tipos de redes
 
-dist. entre proces | proces. no mesmo 
-:-----------------:|:----------------:
-       0.1 m       |Placa-msm pc      
-         1 m       |Sistema-multicomp 
-        10 m       |Sala-rede local   
-       100 m       |Prédio-rede local 
-         1 km      |Campus-rede local 
-        10 km      |Cidade-MAN        
-       100 km      |Estado/País-WAN   
-      1000 km      |Continente-WAN    
-     10000 km      |Planeta-Internet  
+| Distancia | Processo | Exemplo |
+|--------------|:-----:|-----------:|
+| 0.1m|Placa-mae |fluxo de dados da maquina |
+| 1m      |  Sistema | Multicomputador| 
+| 10m      |  Sala | LAN| 
+| 100m      |  Predio | LAN| 
+| 1km      |  Campus | LAN| 
+| 10km      | Cidade | MAN| 
+| 100km      | Pais | WAN| 
+| 1000km      | Continente | WAN| 
+| 10000km      | Planeta | Internet| 
 
+
+<!---
 ## Visão geral de rede
 - transmissor (origem)
     - geralmente é dinâmico (pode enviar e receber)
@@ -46,13 +41,12 @@ dist. entre proces | proces. no mesmo
 - interface - conexão da máquina no meio físico
     - precisa de um meio físico - wifi tbm tem (onda)
     - pega o pulso e transforma em binário
-## Rede local
-- LAN - Local Area Network
-- são privadas por definição
-- tamanhos definem LAN
-    - se n precisa de roteamento ainda é uma LAN
-- taxa de erro baixa por n ter roteamento - broadcast - transmite pra todos
-### Topologia
+    -->
+### Local Area Network (LAN)
+
+Redes locais ou Lans saoi redes privadas que geralmente atuam sobre uma distancia curta, como um casa, predio ou ate mesmo um campus. Sao muito utilizadas para conectar _workstations_ a recursos, como impressoras e servidores privados, e para troca de dados.
+
+#### Topologia
 - maneiras de ligar uma rede
 - estrela
     - 90% da conexão
@@ -68,17 +62,17 @@ dist. entre proces | proces. no mesmo
     - msg em único sentido
     - token
         - quem tem podia transmitir
-## Redes metropolitanas
+### Redes metropolitanas
 - transmissão de sinal de wi-fi é um barramento
 - td mundo recebe a informação
 - MAN - Metropolitan Area Network
 - o próximo passo da rede é conectar a rede com outra rede
 - necessita de criação e rotas
 - rotas diferentes pra chegar em algum lugar
-### Topologia
+#### Topologia
 - DQBD (Dristributed Queue Dual Bus)
 Aqui dois cabos interligam os computadores, um para cada direção, não existe um barramento único ou um anel entre eles.
-## Redes geograficas distribuidas
+### Redes geograficas distribuidas
 - internet foi feita com infra de telefonia
 - WAN - Wide Area Network
 - qql coisa gera interferência
@@ -235,3 +229,14 @@ DATA: 07/Mar/2024
 - modulaão de bit no meio
 ### hierárquicos
 - um monte de etapa vinculada uma com a outra 
+
+<br>
+<span class='git-page-authors'>
+<a href='https://github.com/GalegoSonolento'>Henrique Haag,</a>
+<a href='https://github.com/eduardoschulz'>Eduardo Schulz</a>
+</span>
+
+
+## Referências
+[^1]: Tanenbaum, A; Feamster, N; Wheterall, D. Computer Networks. 6ª ed. Hockham Way, Harlow, Reino Unido: Pearson Educational Limited, 2021.
+[^2]: Sunshine, C. Computer Network Architectures and Protocols. 2ª ed. Plenum Press, Cidade de Nova York, N.Y, Estados Unidos, 1989.

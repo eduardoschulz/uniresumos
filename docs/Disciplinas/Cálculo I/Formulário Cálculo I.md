@@ -16,6 +16,10 @@ VII. $$ Yv = \frac{-\Delta}{4a} \rightarrow - \frac{b² - 4ac}{4a} $$
 
 VIII. $$\lim_{x \to \infty} f(x)  $$
 
+Regras de derivação
+
+* $$ x^n \rightarrow n\cdot x^{\left(n-1\right)}$$
+$$ x² \rightarrow 2x $$
 
 
 ## Referências:

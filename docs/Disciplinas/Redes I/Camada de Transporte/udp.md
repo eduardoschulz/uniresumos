@@ -1,9 +1,9 @@
 # UDP - User Datagram Protocol
 
-??? warning "Aviso"
 
-Está página está inacabada e seus conteúdos não foram verificados
+???+ warning "Aviso"
 
+    Esta página está inacabada e seus conteúdos não foram verificados. 
 
 
 ## 0. Resumo
@@ -16,9 +16,10 @@ Por ser _connectionless_ ele não é confiável como o TCP, não é possível ga
 
 ### 1.1 Cabeçalho
 
-+ Source Port
-+ Destination Port
-...
+<figure markdown="span">
+ ![datagrama funcionamento](../../imgs/head-udp.svg){ width = "300"}
+   <figcaption>Cabeçalho do UDP</figcaption>
+</figure>
 
 ---
 ## Referências
