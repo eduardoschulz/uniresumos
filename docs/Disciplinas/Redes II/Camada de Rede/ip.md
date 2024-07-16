@@ -12,8 +12,8 @@ O IP não é confiável e segue o modelo _best effort_ onde:
 
 ### Funcionamento Resumido:
 <figure markdown="span">
- ![datagrama funcionamento](imgs/func-ip.png){ width = "300"}
-   <figcaption>Funcionamento do Protocolo IP</figcaption>
+ ![datagrama funcionamento](../../imgs/func-ip.svg){ width = "200", height = "200"}
+   <figcaption>Exemplo de Funcionamento do Protocolo IP</figcaption>
 </figure>
 
 
