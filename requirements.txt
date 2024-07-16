@@ -1,6 +1,7 @@
 mkdocs
 mkdocs-material 
-mkdocs-pdf-export-plugin
+#mkdocs-pdf-export-plugin
+mkdocs-with-pdf
 #mkdocs-git-authors-plugin
 mkdocs-awesome-pages-plugin
 python-markdown-math
