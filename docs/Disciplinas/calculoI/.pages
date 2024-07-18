@@ -1,5 +1,6 @@
 title: Cálculo I
 nav:
+    - index.md
     - estudo-funcao.md
     - formulario.md
     - pertinencia.md
