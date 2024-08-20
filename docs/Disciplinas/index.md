@@ -7,6 +7,6 @@
 ## 3º Semestre:
 
 ## 4º Semestre:
-    + [Redes: Aplicação e Transporte](Redes I)
+    + [Análise e Projeto de Algoritmos](Análise e Projeto de Algoritmos)
     + [Fundamentos de Sistemas Operacionais](Sistemas I)
-
+    + [Redes: Aplicação e Transporte](Redes I)
