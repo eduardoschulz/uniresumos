@@ -68,6 +68,46 @@ imagem)
   - dá pra meter uns efeito em cima ainda
   - isso aqui é o pós-processamento
 
+### Shaders
+Versões mais atuais das ferramentas de processamento gráfico todas usam uma *Programmable pipeline*, existente desde do OpenGL 2.0. Processadores mais modernos todos utilizam pipelines programáveis.
+Essas pipelines programáveis, ao invés de apenas lançar a *geometry data* dentro da GPU e largar na tela, ela pega os dados, lança *buffer*, *shader* e etc, e pode lançar e receber dados da tela ou de outros buffers.
+GLEW/GLAD são bibliotecas alcançadas em tempo de execução do código e utilizam o padrão OpenGL (porque é isso que ele é apenas).
+Temos 4 estágios dentro da pipeline programável da OpenGL:
+• Estágio de Vertex shading
+  – Processa cada vértice separadamente
+• Estágio de Tesselation shading -> opcional
+  – Gera geometria dentro do pipeline (com código)
+• Estágio de Geometry shading -> opcional
+  – Processa cada primitiva separadamente
+• Estágio de Fragment shading
+  – Processa cada fragmento separadamente
+
+Pelo guia do OpenGL 4.3, a ordem do pipeline é a seguinte: *Vertex data* => *Vertex shader* => *Tessellation / Control / Shader* => *Tessellation / Evaluation / Shader* => *Geometry / Shader* => *Rasterization* => *Clipping* => *Primitive Setup* => *Fragment Shader* => Imagem representada na tela.
+
+Shaders, nesse sentido, são simplesmente mini-programas que identificam **como** desenhar algo na tela. São *especificamente* montados pra rodar na **GPU**.
+Existem 3 tipos/estágios de Shaders:
+• Vertex Shaders: descrevem *como* tratar um *vértice*
+  – Posição (3D -> 2D)
+  – Coordenadas de Textura
+  – Cor
+• Fragment Shaders: descrevem *como* tratar uma *área* (pixel-size)
+  – Cor
+  – Z-depth
+  – Alpha value
+• Processados paralelamente
+  – Um para cada vértice de um modelo
+  – Um para cada fragmento
+
+A pipeline toda vai rodar em paralelo usando diversos núcleos de processadores da GPU. O paralelismo nesse caso é real. Nesse sentido, dá pra escolher um shader que tenha nosso objetivo e faça uma diferença bastante clara no resultado final do resultado do processamento. Animação e diferenciação do objeto acontecem nessa área - todos esses processos na GPU são *pipeline do hardware*
+
+
+- programas (pequenos) que implementam/definem/processam info para serem desenhados (geometrias/fragmentos) para o desenho (render) junto com a API gráfica
+  - são compilados especificamente pra rodar na placa gráfica (GPU)
+- Shading != shaders (pero no mucho)
+  - shading (fazer o sombreamento na solid view) utiliza shaders pra conseguir rodar, mas o *shading* serve como um processo maior conceitualmente
+- o compilador do código de shader é a própria API gráfica do OpenGL (GLSL) - nessa caso, se estiver utilizando outra biblioteca gráfica ela vai dar conta do recado à sua maneira
+  - GLSL é uma linguagem de Shader
+
 ### Referências
 - Real-time rendering - 4th ed. / 2018 - ( Livro eletrônico ) 
   - https://pdfroom.com/books/real-time-rendering/XDkgVjmNg9B -> aparentemente o leitor de PDF funciona
