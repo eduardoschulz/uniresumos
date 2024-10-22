@@ -22,9 +22,9 @@ theme:
 repo_url: https://github.com/eduardoschulz/uni-resumos/
 plugins:
     - search
-    - awesome-pages
-    - with-pdf
-      #- pdf-export
+#   - awesome-pages
+#   - with-pdf
+#   - pdf-export
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
